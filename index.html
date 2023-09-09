@@ -3,28 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Portafolio de Claudia Serrano</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza una hoja de estilo externa (opcional) -->
 </head>
+        <style>
+
+        header {
+            background-color: #3d6277;
+            color: #FCCFDC;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Estilos para las secciones */
+        section {
+            margin: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Estilos para la lista de proyectos */
+        #portafolio ul {
+            list-style-type: none;
+        }
+
+        #portafolio li {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        #portafolio h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        /* Estilos para enlaces */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <h1>Claudia Serrano</h1>
+        <p>Analista de Experiencia y Calidad</p>
     </header>
     
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+    <section id="acerca-de">
+        <h2>Acerca de Mí</h2>
+        <p>Soy un apasionado profesional con más de 13 años de experiencia en el área de calidad en el sector de telecomunicaciones. Además, soy comunicadora social y estudiante de maestría en Educación Superior.</p>
+    </section>
 
-    <main>
-        <h2>Contenido Principal</h2>
-        <p>Este es el contenido principal de mi página web. Puedes agregar aquí todo lo que desees.</p>
-    </main>
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <ul>
+            <li>
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1.</p>
+            </li>
+            <li>
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto 2.</p>
+            </li>
+            <!-- Agrega más proyectos aquí -->
+        </ul>
+    </section>
+
+    <section id="educacion">
+        <h2>Educación</h2>
+        <p>Maestría en Educación Superior (en curso)<br>
+        Universidad NUR</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: isabita27@gmail.com<br>
+        LinkedIn: <a href="https://www.linkedin.com/in/claudia-isabel-serrano-salvatierra-bb7027187?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BntlD2qSaTg%2BORgwbH%2FWv1g%3D%3D" target="_blank">Perfil de LinkedIn</a></p>
+    </section>
 
     <footer>
-        <p>Derechos de autor &copy; 2023 Mi Página Web</p>
+        <p>&copy; 2023 Claudia Serrano</p>
     </footer>
 </body>
 </html>
+
